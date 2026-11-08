@@ -1,93 +1,153 @@
 
+
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Afro-Sino Business Bridge Group SARL</title>
 <style>
 *{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;color:#183047;background:#f5f8fb;line-height:1.6}
-header{background:#102d48;color:white;padding:22px 6%}
-.logo{font-size:21px;font-weight:bold}
-nav{margin-top:12px}
-nav a{color:white;margin-right:15px;text-decoration:none;font-size:14px}
-.hero{background:linear-gradient(120deg,#102d48,#146f82);color:white;padding:75px 7%;text-align:center}
-.hero h1{font-size:clamp(28px,5vw,45px);line-height:1.2}
-.hero p{max-width:650px;margin:20px auto}
-.btn{display:inline-block;background:#e7b75c;color:#152a3d;padding:12px 24px;border-radius:6px;text-decoration:none;font-weight:bold}
-section{padding:55px 7%;max-width:1150px;margin:auto}
-h2{color:#123a57}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
-.card{background:white;border-radius:10px;padding:25px;box-shadow:0 3px 12px #00000010}
-.card h3{color:#146f82}
-footer{background:#102d48;color:white;text-align:center;padding:30px}
-footer a{color:#e7b75c}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;color:#183247;line-height:1.6}
+header,footer{background:#102d48;color:white;padding:24px 6%}
+header h2{color:white;margin:0;font-size:22px}
+nav{margin-top:15px}
+nav a{color:white;text-decoration:none;margin-right:16px;display:inline-block}
+.hero{background:linear-gradient(120deg,#102d48,#08748b);color:white;text-align:center;padding:85px 7%}
+.hero h1{font-size:clamp(30px,6vw,52px);line-height:1.2}
+.hero p{max-width:700px;margin:20px auto}
+.btn{display:inline-block;background:#e7b75c;color:#102d48;padding:13px 23px;border-radius:7px;text-decoration:none;font-weight:bold}
+section{padding:55px 7%;scroll-margin-top:30px}
+section:nth-child(even){background:#f3f7fb}
+h2{color:#102d48;font-size:29px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:25px}
+.card{background:white;padding:25px;border:1px solid #dbe5ee;border-radius:12px}
+.card h3{color:#086b83}
+.notice{background:#eaf2f8;padding:18px;border-radius:8px}
+input,select,textarea{width:100%;padding:13px;margin:8px 0 16px;border:1px solid #bbcbd5;border-radius:6px;font:inherit}
+textarea{min-height:110px}
+button{background:#102d48;color:white;padding:14px 22px;border:0;border-radius:7px;font-weight:bold;cursor:pointer}
+footer{text-align:center}
+@media(max-width:600px){nav a{margin:5px 10px 5px 0}.hero{padding:60px 6%}}
 </style>
 </head>
 <body>
 <header>
-<div class="logo">AFRO-SINO BUSINESS BRIDGE GROUP SARL</div>
+<h2>AFRO-SINO BUSINESS BRIDGE GROUP SARL</h2>
+<p>Kinshasa, République démocratique du Congo</p>
 <nav>
 <a href="#accueil">Accueil</a>
-<a href="#apropos">À propos</a>
-<a href="#services">Services</a>
+<a href="#etudes">Études</a>
+<a href="#commerce">Commerce</a>
+<a href="#partenariats">Partenariats</a>
 <a href="#contact">Contact</a>
 </nav>
 </header>
 
 <div class="hero" id="accueil">
-<h1>Votre passerelle commerciale entre la RDC et la Chine</h1>
-<p>Accompagnement des entreprises, approvisionnement, commerce international et recherche de partenaires.</p>
-<a class="btn" href="#services">Découvrir nos services</a>
+<h1>Votre partenaire pour les études et les affaires entre la Chine et l'Afrique</h1>
+<p>Des solutions d'accompagnement pour les étudiants, entrepreneurs et entreprises, avec une attention particulière à la République démocratique du Congo.</p>
+<a class="btn" href="#etudes">Découvrir nos services</a>
 </div>
 
 <section id="apropos">
 <h2>Qui sommes-nous ?</h2>
-<p>Afro-Sino Business Bridge Group SARL est une entreprise basée à Kinshasa, en République démocratique du Congo.</p>
-<p>Notre objectif est de faciliter les relations commerciales entre les entreprises congolaises et chinoises, notamment dans l'approvisionnement, la logistique et le développement de partenariats.</p>
+<p>Afro-Sino Business Bridge Group SARL est une entreprise basée à Kinshasa, en République démocratique du Congo. Nous développons des services d'orientation académique et d'accompagnement commercial, principalement entre la Chine, la RDC et les autres pays africains.</p>
 </section>
 
-<section id="services">
-<h2>Nos domaines de services</h2>
-<div class="cards">
+<section id="etudes">
+<h2>Étudier en Chine et à l'étranger</h2>
+<p>Nous accompagnons les personnes intéressées par les opportunités de formation en Chine et dans d'autres pays.</p>
+<div class="grid">
+<div class="card">
+<h3>Bourses d'études</h3>
+<p>Recherche d'opportunités, orientation et préparation des dossiers de candidature selon les conditions des établissements et programmes.</p>
+</div>
+<div class="card">
+<h3>Études autofinancées</h3>
+<p>Admissions en licence, master, doctorat et formations linguistiques, avec ou sans bourse.</p>
+</div>
+<div class="card">
+<h3>Accompagnement universitaire</h3>
+<p>Choix de programmes, constitution de dossiers et conseils pour les démarches après admission.</p>
+</div>
+</div>
+<p class="notice">Les admissions et les bourses sont décidées par les universités et organismes concernés. Aucune admission ou bourse n'est garantie.</p>
+</section>
+
+<section id="commerce">
+<h2>Commerce Chine–Afrique</h2>
+<div class="grid">
+<div class="card">
+<h3>Achats en Chine</h3>
+<p>Recherche de produits, fournisseurs, cotations et accompagnement des commandes.</p>
+</div>
 <div class="card">
 <h3>Import-export</h3>
-<p>Accompagnement des projets d'importation et d'exportation entre la Chine et la RDC.</p>
+<p>Orientation pour l'approvisionnement, le transport et la coordination logistique.</p>
 </div>
 <div class="card">
-<h3>Achats et approvisionnement</h3>
-<p>Recherche de produits, de fournisseurs et de solutions d'approvisionnement adaptées aux besoins des clients.</p>
-</div>
-<div class="card">
-<h3>Logistique et transport</h3>
-<p>Étude et coordination de solutions de transport international et de livraison.</p>
-</div>
-<div class="card">
-<h3>Partenariats commerciaux</h3>
-<p>Mise en relation et accompagnement des entreprises souhaitant développer leurs activités entre les deux marchés.</p>
-</div>
-<div class="card">
-<h3>Conseil et accès au marché</h3>
-<p>Informations commerciales et accompagnement préliminaire pour les projets d'implantation et de coopération.</p>
-</div>
-<div class="card">
-<h3>Projets et opportunités</h3>
-<p>Étude de propositions commerciales et identification de possibilités de coopération.</p>
+<h3>Développement commercial</h3>
+<p>Accompagnement des entreprises congolaises et africaines souhaitant développer des relations commerciales avec la Chine.</p>
 </div>
 </div>
+</section>
+
+<section id="partenariats">
+<h2>Partenariats et coopération</h2>
+<p>Nous recevons les propositions de collaboration et les demandes de mise en relation entre entreprises, fournisseurs, investisseurs et porteurs de projets en RDC, en Chine et en Afrique.</p>
+<a class="btn" href="#contact">Présenter un projet</a>
 </section>
 
 <section id="contact">
-<h2>Nous contacter</h2>
-<p>Vous avez un projet d'achat, d'importation ou de partenariat entre la RDC et la Chine ? Présentez-nous vos besoins.</p>
-<p><strong>Localisation :</strong> Kinshasa, République démocratique du Congo.</p>
-<p>Les coordonnées professionnelles seront communiquées après confirmation.</p>
+<h2>Contact et demande de renseignements</h2>
+<p>Décrivez votre projet pour préparer une demande à transmettre à notre entreprise.</p>
+<form id="demande">
+<label>Nom ou organisation</label>
+<input id="nom" required placeholder="Votre nom">
+<label>Adresse e-mail</label>
+<input id="email" type="email" required placeholder="Votre adresse e-mail">
+<label>Service recherché</label>
+<select id="service" required>
+<option value="">Sélectionner</option>
+<option>Bourse d'études</option>
+<option>Admission autofinancée</option>
+<option>Études à l'étranger</option>
+<option>Achats en Chine</option>
+<option>Import-export</option>
+<option>Partenariat commercial</option>
+<option>Autre demande</option>
+</select>
+<label>Votre message</label>
+<textarea id="message" required placeholder="Expliquez votre demande"></textarea>
+<button type="submit">Copier ma demande</button>
+<p id="resultat" role="status"></p>
+</form>
+<p>Localisation : Kinshasa, RDC.</p>
 </section>
 
 <footer>
-<p>© 2026 Afro-Sino Business Bridge Group SARL</p>
-<p>Kinshasa — République démocratique du Congo</p>
+<strong>AFRO-SINO BUSINESS BRIDGE GROUP SARL</strong>
+<p>Études internationales | Commerce Chine–Afrique | Partenariats</p>
+<p>© <span id="annee"></span> Tous droits réservés.</p>
 </footer>
+<script>
+document.getElementById("annee").textContent=new Date().getFullYear();
+document.getElementById("demande").onsubmit=async function(e){
+e.preventDefault();
+const texte="Nom : "+document.getElementById("nom").value+
+"\nEmail : "+document.getElementById("email").value+
+"\nService : "+document.getElementById("service").value+
+"\nMessage : "+document.getElementById("message").value;
+try{
+await navigator.clipboard.writeText(texte);
+document.getElementById("resultat").textContent="Demande copiée. Collez-la dans votre messagerie pour l'envoyer.";
+}catch(err){
+document.getElementById("resultat").textContent="Copie automatique indisponible. Veuillez copier les informations du formulaire manuellement.";
+}
+};
+</script>
 </body>
 </html>
